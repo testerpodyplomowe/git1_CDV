@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import Select
 from time import sleep
 
 email = "tester@mailinator.com"
-name = "Jan"
+name = "Janek"
 surname = "Kowalski"
 password = "Tester1234@"
 birthdate_dmr = ['1', '7', '1987']
