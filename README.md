@@ -2,6 +2,8 @@
 
 ### About project in CDV for GIT TRAINING
 
+:+1: :sparkles: :tada: :rocket: :metal: :octocat:
+
 [Link to GIT tutorial](https://www.udemy.com/course/git-od-podstaw-dla-kazdego/)
 
 ### Sample code Python+Selenium Webdriver 
@@ -27,6 +29,11 @@ class BaseTest(unittest.TestCase):
 
 ### Fav git commands
 
+Git setup | Git configuration
+------------ | -------------
+git init [directory] | git config --global user.name "[your_name]"
+git clone [repo / URL] | git config --global user.email "[email_address]"
+git clone [repo / URL] [folder] | git config --global color.ui auto
 
 ### Fav terminal commands 
 
@@ -70,3 +77,4 @@ if __name__ == "__main__":
     # ...to uruchamiam testy
     unittest.main(verbosity=2)
 ```
+
