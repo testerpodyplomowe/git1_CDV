@@ -1,5 +1,16 @@
 # git1_CDV
 
+## bloggraud
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+
 ### About project in CDV for GIT TRAINING
 
 ### Here is new Python image:
@@ -101,4 +112,3 @@ if __name__ == "__main__":
     # ...to uruchamiam testy
     unittest.main(verbosity=2)
 ```
-
