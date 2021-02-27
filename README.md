@@ -2,7 +2,7 @@
 
 ### About project in CDV for GIT TRAINING
 
-
+[Link to GIT tutorial](https://www.udemy.com/course/git-od-podstaw-dla-kazdego/)
 
 ### Sample code Python+Selenium Webdriver 
 import unittest
