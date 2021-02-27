@@ -3,8 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from time import sleep
 
-email = "tester@mailinator.com"
+email = "tester123@mailinator.com"
 name = "Janeczek"
+password = "qwerty123"
 
 class TestRegistration(unittest.TestCase):
 
@@ -12,7 +13,7 @@ class TestRegistration(unittest.TestCase):
         self.driver = webdriver.Chrome()
         self.driver.get("http://automationpractice.com/index.php")
         self.driver.maximize_window()
-        self.driver.implicitly_wait(5)
+        self.driver.implicitly_wait(15)
 
     def testLogin(self):
         signin_btn = self.driver.find_element_by_class_name("login")
