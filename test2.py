@@ -4,7 +4,12 @@ from selenium.webdriver.support.ui import Select
 from time import sleep
 
 email = "tester@mailinator.com"
+
 name = "Kacper"
+
+
+
+
 
 class TestRegistration(unittest.TestCase):
 
@@ -14,6 +19,11 @@ class TestRegistration(unittest.TestCase):
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
 
+=======
+    @unittest.skip
+
+
+    
     def testLogin(self):
         signin_btn = self.driver.find_element_by_class_name("login")
         signin_btn.click()
