@@ -2,6 +2,9 @@
 
 ### About project in CDV for GIT TRAINING
 
+[link to GIT tutorial](https://www.udemy.com/course/git-od-podstaw-dla-kazdego/)
+
+
 
 ----
 **Test Schedule**
@@ -84,6 +87,7 @@ We have a policy to create MR to both release branch and `develop` to see proble
 1. Run release (see above) on release branch
 
 
+Code sample:
 ```python
 if __name__ == "__main__":
     # ...to uruchamiam testy
