@@ -2,7 +2,19 @@
 
 ### About project in CDV for GIT TRAINING
 
-:+1: :sparkles: :tada: :rocket: :metal: :octocat:
+
+----
+**Test Schedule**
+----
+- [ ] Test new features
+- [x] Retests
+- [ ] Regression
+
+
+## Useful links
+[How to use markdown](https://guides.github.com/features/mastering-markdown/)
+
+:+1: :octocat:
 
 [Link to GIT tutorial](https://www.udemy.com/course/git-od-podstaw-dla-kazdego/)
 
@@ -77,4 +89,3 @@ if __name__ == "__main__":
     # ...to uruchamiam testy
     unittest.main(verbosity=2)
 ```
-
