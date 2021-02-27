@@ -2,6 +2,7 @@
 
 ### About project in CDV for GIT TRAINING
 
+
 #### Manual post-release actions
 
 The job will also create a Merge Request of this tag back to `develop` branch.
@@ -36,4 +37,9 @@ We have a policy to create MR to both release branch and `develop` to see proble
 1. Test on stage
 1. Run release (see above) on release branch
 
----
+
+```python
+if __name__ == "__main__":
+    # ...to uruchamiam testy
+    unittest.main(verbosity=2)
+```
