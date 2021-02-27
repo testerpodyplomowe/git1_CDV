@@ -2,6 +2,6 @@
 
 ### About project in CDV for GIT TRAINING
 
-##Strona o Appium
+##Web Page about Appium
 
-[Strona www o Appium](https://kobiton.com/blog/appium/using-appium-desktop-with-kobiton/)
+[Kobiton web page](https://kobiton.com/blog/appium/using-appium-desktop-with-kobiton/)
