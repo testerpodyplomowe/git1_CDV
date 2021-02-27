@@ -12,8 +12,10 @@ class TestRegistration(unittest.TestCase):
         self.driver = webdriver.Chrome()
         self.driver.get("http://automationpractice.com/index.php")
         self.driver.maximize_window()
-        self.driver.implicitly_wait(10)
+        self.driver.implicitly_wait(5)
+    @unittest.skip
 
+    
     def testLogin(self):
         signin_btn = self.driver.find_element_by_class_name("login")
         signin_btn.click()
