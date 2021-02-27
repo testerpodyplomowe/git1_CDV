@@ -4,10 +4,7 @@ from selenium.webdriver.support.ui import Select
 from time import sleep
 
 email = "tester@mailinator.com"
-name = "Jan"
-surname = "Kowalski"
-password = "Tester1234@"
-birthdate_dmr = ['1', '7', '1987']
+name = "Janeczek"
 
 class TestRegistration(unittest.TestCase):
 
