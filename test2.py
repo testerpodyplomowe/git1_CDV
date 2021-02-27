@@ -1,7 +1,7 @@
 import unittest
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
-from time import sleep
+from time import sleep 
 
 email = "tester@mailinator.com"
 name = "Janeczek"
