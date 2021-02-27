@@ -1,5 +1,5 @@
 from selenium import webdriver
 
 driver = webdriver.Firefox()
-driver.get('https://www.cdv.pl')
+driver.get('https://google.com')
 driver.close()
