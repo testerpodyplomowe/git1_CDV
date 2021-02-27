@@ -3,6 +3,33 @@
 ### About project in CDV for GIT TRAINING
 
 
+
+### Sample code Python+Selenium Webdriver 
+import unittest
+from selenium import webdriver
+```Python
+class BaseTest(unittest.TestCase):
+
+    def setUp(self):
+        self.driver = webdriver.Chrome()
+        self.driver.get("https://wizzair.com/pl-pl#/")
+        self.driver.maximize_window()
+
+    def tearDown(self):
+        self.driver.quit()
+ ```       
+
+### Links 
+  
+
+### Picture  
+
+
+### Fav git commands
+
+
+### Fav terminal commands 
+
 #### Manual post-release actions
 
 The job will also create a Merge Request of this tag back to `develop` branch.
