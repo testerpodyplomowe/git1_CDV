@@ -4,7 +4,11 @@ from selenium.webdriver.support.ui import Select
 from time import sleep
 
 email = "tester@mailinator.com"
-name = "Ania"
+
+name = "Kacper"
+
+
+
 
 
 class TestRegistration(unittest.TestCase):
@@ -14,7 +18,10 @@ class TestRegistration(unittest.TestCase):
         self.driver.get("http://automationpractice.com/index.php")
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
+
+=======
     @unittest.skip
+
 
     
     def testLogin(self):
